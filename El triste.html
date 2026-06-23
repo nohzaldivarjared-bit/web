@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> CANCIONERO </title>
+<style>
+     .encabezado {color:white; 
+        font-size: 25px;
+        font-family: arial;
+    }
+    div ul {
+        list-style:none;
+        margin:0;
+        padding:0;
+    }
+    div li{
+        float:left;
+    }
+    div a{
+        display:block;
+        background-color:rgb(14, 15, 83);
+        text-decoration:none;
+        text-align:center;
+        margin:10px;
+        color:white;
+        width:150px;
+        height:30px;
+        line-height:30px;
+        font-family: sans-serif;
+    }
+    div a:hover{
+        background-color:green;
+    }
+    .titulo1 {font-size:10px;
+        color: white;
+        font-family: Arial, Helvetica;
+        text-align: center;
+    
+    }
+    
+
+    *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    .contenedor {
+        width: 1024px;
+        height: 768px;
+        border: 2px solid black;
+        margin: 0 auto;
+        
+        display: grid;
+        grid-template-columns: 512px 512px;
+        grid-template-rows: 90px 70px 568px 60px;
+
+    }
+    .box{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 24px;
+        font-weight: bold;
+        color: #333;
+        border: 1px solid #333;
+    }
+    .header{
+        grid-column: span 2;
+        background-color: rgba(10, 126, 194, 0.986);
+
+        justify-content: center;
+        align-items: center;
+        font-size: 25px;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .nav{
+        grid-column: span 2;
+        background-color:white;
+    }
+    .section{
+        background-color: rgb(5, 48, 75);
+        text-align: center;
+        
+    }
+    .aside{
+        background-color: darkblue;
+    }
+    .footer{
+        grid-column: span 2;
+        background-color: black;
+
+        justify-content: center;
+        align-items:center;
+        color: white;
+        font-size: 20px;
+        font-weight: lighter;
+        font-family: sans-serif;
+        text-align: center;
+    }
+
+</style>
+</head>
+<body>
+    <div class="contenedor"> 
+    <div class="box header"> <span class="encabezado"> Cancionario </span> </div>
+    <div class="box nav">
+        <ul>
+            <li> <a href="Lo dudo.html">Lo dudo</a></li>
+            <li> <a href="El triste.html">Triste</a></li>
+            <li> <a href="No me digas.html">No me digas</a></li>
+            <li> <a href="Me basta.html">Me basta</a></li>
+            <li> <a href="40 y 20.html">40 y 20</a></li>
+            <li> <a href="Cancionero.html">inicio</a></li>
+        </ul> 
+ 
+    </div>
+    <div class="box section"> <span class="titulo1"> <h1> El triste </h1>
+        <article>
+        <p> Qué triste fue decirnos adiós
+        <p> Cuando nos adorábamos más
+        <p> Hasta la golondrina emigró
+        <p> Presagiando el final
+
+        <p> <br>Qué triste luce todo sin ti
+            <p> Los mares de las playas se van
+            <p> Se tiñen los colores de gris
+            <p> Hoy todo es soledad </br>
+
+        <p> <br> No sé si vuelva a verte después
+            <p> No sé qué de mi vida será
+            <p> Sin el lucero azul de tú ser
+            <p> Que no me alumbra ya </br>
+
+        <p> <br> Hoy quiero saborear mi dolor
+            <p> No pido compasión ni piedad
+            <p> La historia de este amor se escribió
+            <p> Para la eternidad </br>
+                
+        <p> <br> Qué triste todos dicen que soy
+            <p> Que siempre estoy hablando de ti
+            <p> No saben que pensando en tu amor, en tu amor
+            <p> He podido ayudarme a vivir
+            <p> He podido ayudarme a vivir </br>
+
+        <p> <br> Oh oh oh oh
+            <p> Oh oh oh oh </br> 
+            
+        <p> <br> Hoy quiero saborear mi dolor
+            <p> No pido compasión ni piedad
+            <p> La historia de este amor se escribió
+            <p> Para la eternidad </br>   
+        
+        <p> <br> Qué triste todos dicen que soy
+            <p> Que siempre estoy hablando de ti
+            <p> No saben que pensando en tu amor, en tu amor
+            <p> He podido ayudarme a vivir
+            <p> He podido ayudarme a vivir
+            <p> He podido ayudarme a vivir </br>
+
+                <br> <span class="texto1"> <audio src="El triste.mp3" controls> </audio> 
+                    </article>
+    </span>
+    </div>
+    
+    <div class="box aside"> <img src="cinemex.jpg" width="80%" height="80%"> </div>
+    <div class="box footer"> &copy; Jared noh zaldivar - todos los derechos reservados </div>
+</div>
+</body>
+</html>

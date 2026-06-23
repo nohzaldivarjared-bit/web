@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> CANCIONERO </title>
+<style>
+     .encabezado {color:white; 
+        font-size: 25px;
+        font-family: arial;
+    }
+    div ul {
+        list-style:none;
+        margin:0;
+        padding:0;
+    }
+    div li{
+        float:left;
+    }
+    div a{
+        display:block;
+        background-color:rgb(14, 15, 83);
+        text-decoration:none;
+        text-align:center;
+        margin:10px;
+        color:white;
+        width:150px;
+        height:30px;
+        line-height:30px;
+        font-family: sans-serif;
+    }
+    div a:hover{
+        background-color:green;
+    }
+    .titulo1 {font-size:20px;
+        color: #191970;
+        font-family: Arial, Helvetica;
+    }
+    .texto1 {font-size:20px;
+        color:black;
+        font-family: Arial, Verdana;
+    }
+
+    *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    .contenedor {
+        width: 1024px;
+        height: 768px;
+        border: 2px solid black;
+        margin: 0 auto;
+        
+        display: grid;
+        grid-template-columns: 512px 512px;
+        grid-template-rows: 90px 70px 568px 60px;
+
+    }
+    .box{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 24px;
+        font-weight: bold;
+        color: #333;
+        border: 1px solid #333;
+    }
+    .header{
+        grid-column: span 2;
+        background-color: darkcyan;
+
+        justify-content: center;
+        align-items: center;
+        font-size: 25px;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .nav{
+        grid-column: span 2;
+        background-color:white;
+    }
+    .section{
+        background-color: rgb(127, 127, 128);
+        text-align: center;
+    }
+    .aside{
+        background-color: rgb(71, 71, 71);
+    }
+    .footer{
+        grid-column: span 2;
+        background-color: rgb(32, 33, 71);
+
+        justify-content: center;
+        align-items:center;
+        color: white;
+        font-size: 20px;
+        font-weight: lighter;
+        font-family: sans-serif;
+        text-align: center;
+    }
+
+</style>
+</head>
+<body>
+    <div class="contenedor"> 
+    <div class="box header"> <span class="encabezado"> Cancionario </span> </div>
+    <div class="box nav">
+        <ul>
+            <li> <a href="Lo dudo.html">Lo dudo</a></li>
+            <li> <a href="El triste.html">Triste</a></li>
+            <li> <a href="No me digas.html">No me digas</a></li>
+            <li> <a href="Me basta.html">Me basta</a></li>
+            <li> <a href="40 y 20.html">40 y 20</a></li>
+        </ul> 
+
+    </div>
+    <div class="box section"> <span class="titulo1"> <h1> LOS MEJORES EXITOS DE JOSE JOSE </h1> 
+    
+        <br> <img src="JoseJose.jpg" width="80%" height="80%">
+    </div>
+    <div class="box aside"> <img src="sabritas.jpg" width="80%" height="80%"> </div>
+    <div class="box footer"> &copy; Jared noh zaldivar - todos los derechos reservados </div>
+</div>
+</body>
+</html>
