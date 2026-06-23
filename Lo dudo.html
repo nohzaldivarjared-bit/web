@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> CANCIONERO </title>
+<style>
+     .encabezado {color:white; 
+        font-size: 25px;
+        font-family: arial;
+    }
+    div ul {
+        list-style:none;
+        margin:0;
+        padding:0;
+    }
+    div li{
+        float:left;
+    }
+    div a{
+        display:block;
+        background-color:rgb(14, 15, 83);
+        text-decoration:none;
+        text-align:center;
+        margin:10px;
+        color:white;
+        width:150px;
+        height:30px;
+        line-height:30px;
+        font-family: sans-serif;
+    }
+    div a:hover{
+        background-color:green;
+    }
+    .titulo1 {font-size:8px;
+        color: white;
+        font-family: Arial, Helvetica;
+        text-align: center;
+    
+    }
+    
+
+    *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    .contenedor {
+        width: 1024px;
+        height: 768px;
+        border: 2px solid black;
+        margin: 0 auto;
+        
+        display: grid;
+        grid-template-columns: 512px 512px;
+        grid-template-rows: 90px 70px 568px 60px;
+
+    }
+    .box{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 24px;
+        font-weight: bold;
+        color: #333;
+        border: 1px solid #333;
+    }
+    .header{
+        grid-column: span 2;
+        background-color: rgba(10, 126, 194, 0.986);
+
+        justify-content: center;
+        align-items: center;
+        font-size: 25px;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .nav{
+        grid-column: span 2;
+        background-color:white;
+    }
+    .section{
+        background-color: rgb(5, 48, 75);
+        text-align: center;
+        
+    }
+    .aside{
+        background-color: darkblue;
+    }
+    .footer{
+        grid-column: span 2;
+        background-color: black;
+
+        justify-content: center;
+        align-items:center;
+        color: white;
+        font-size: 20px;
+        font-weight: lighter;
+        font-family: sans-serif;
+        text-align: center;
+    }
+
+</style>
+</head>
+<body>
+    <div class="contenedor"> 
+    <div class="box header"> <span class="encabezado"> Cancionario </span> </div>
+    <div class="box nav">
+        <ul>
+            <li> <a href="Lo dudo.html">Lo dudo</a></li>
+            <li> <a href="El triste.html">Triste</a></li>
+            <li> <a href="No me digas.html">No me digas</a></li>
+            <li> <a href="Me basta.html">Me basta</a></li>
+            <li> <a href="40 y 20.html">40 y 20</a></li>
+            <li> <a href="index.html">inicio</a></li>
+        </ul> 
+ 
+    </div>
+    <div class="box section"> <span class="titulo1"> <h1> Lo dudo </h1>
+        <article>
+        <p> Anda y ve
+        <p> Está esperando, anda y ve
+        <p> No lo hagas por mí
+        <p> Que al fin y al cabo
+        <p> Somos solo amigos
+
+        <p> <br> Anda y ve
+            <p> Te veo nerviosa, anda y ve
+            <p> Y, que sientas con él
+            <p> Lo que en su día, tú sentías conmigo </br>
+
+        <p> <br> Pero lo dudo
+            <p> Conmigo te mecías en el aire
+            <p> Volabas en caballo blanco el mundo
+            <p> Y aquellas cosas no podrán volver</br>
+                
+        <p> <br> Y es que, lo dudo
+            <p> Porque hasta veces me has llorado por un beso
+            <p> Llorando de alegría y no de miedo
+            <p> Y dudo que te pase igual con él
+            <p> Igual con él</br>
+
+        <p> <br> Anda y ve
+            <p> Te está esperando, anda y ve
+            <p> No lo hagas por mí
+            <p> Que al fin y al cabo
+            <p> Somos sólo amigos </br> 
+                
+        <p> <br> Anda y ve
+            <p> Te veo nerviosa, anda y ve
+            <p> Y, que sientas con él
+            <p> Lo que en su día tú sentías conmigo </br>
+
+        <p> <br>Pero lo dudo
+            <p> Conmigo te mecías en el aire
+            <p> Volabas en caballo blanco el mundo
+            <p> Y aquellas cosas no podrán volver </br>
+
+        <p> <br> Y es que, lo dudo
+            <p> Porque hasta veces me has llorado con un beso
+            <p> Llorando de alegría y no de miedo
+            <p> Y dudo que te pase igual con él </br> 
+
+        <p> <br> Pero lo dudo
+            <p> Conmigo te mecías en el aire
+            <p> Volabas en caballo blanco el mundo
+            <p> Y aquellas cosas no podrán volver </br> 
+
+        <p> <br> Y es que, lo dudo
+            <p> Porque hasta a veces me has llorado por un beso
+            <p> Llorando de alegría y no de miedo
+            <p> Y dudo que te pase igual con él
+            <p> Pero lo dudo </br>
+                
+
+                <br> <span class="texto1"> <audio src="Lo dudo.mp3" controls> </audio>
+                    </article>
+    </span>
+    </div>
+    
+    <div class="box aside"> <img src="vips.jpg" width="60%" height="80%"> </div>
+    <div class="box footer"> &copy; Jared noh zaldivar - todos los derechos reservados </div>
+</div>
+</body>
+</html>
